@@ -10,7 +10,7 @@ const testQuestion = {
   correctIndex: 0,
 };
 
-const noop = () => {};
+const noop = () => { };
 
 beforeEach(() => {
   jest.useFakeTimers();
